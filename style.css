@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding:  0;
+    padding: 0;
     background: url(pic1.jfif);
     background-size: cover;
     background-position: center;
@@ -42,14 +42,14 @@ h1{
     font-weight: bold;
 }
 
-.login input{
+.loginbox input{
     width: 100%;
     margin-bottom: 20px;
 }
 
 .loginbox input[type="text"], input[type="password"]
 {
-    border:none;
+    border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
@@ -58,25 +58,19 @@ h1{
     font-size: 16px;
 }
 
-.loginbox input [type="submit"]
+.loginbox input[type="submit"]
 {
     border: none;
     outline: none;
     height: 40px;
-    background: #fb2525;
-    color: #fff;
+    background: #37fb25;
+    color: rgb(228, 2, 51);
     font-size: 18px;
     border-radius: 20px;
 }
-.loginbox input [type="submit"]:hover
+.loginbox input[type="submit"]:hover
 {
     cursor:pointer;
-    background: #ffc107;
-    color: #000;
-}
-.loginbox a{
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color:darkgrey;
+    background: #072cff;
+    color: rgb(0, 0, 0);
 }
